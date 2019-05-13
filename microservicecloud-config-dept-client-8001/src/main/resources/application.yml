@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: microservicecloud-config-dept-client
+
+#debug: true
