@@ -8,10 +8,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 /**
- *
- * 修改microservicecloud-api工程，根据已经有的DeptClientService接口
+ * 服务降级
+ * 修改 microservicecloud-api 工程，根据已经有的 DeptClientService 接口
 
- * 新建一个实现了FallbackFactory接口的类DeptClientServiceFallbackFactory
+ * 新建一个实现了 FallbackFactory 接口的类 DeptClientServiceFallbackFactory
+ */
+
+/**
+ * web 服务客户端负载均衡
  */
 @FeignClient(value = "MICROSERVICECLOUD-DEPT", fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {

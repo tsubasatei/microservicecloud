@@ -9,6 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- 微服务落地的服务提供者 -->
+    <!-- 将已有的部门微服务注册进eureka服务中心 -->
     <artifactId>microservicecloud-provider-dept-8001</artifactId>
 
     <dependencies>
@@ -25,11 +27,12 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!-- 将微服务provider侧注册进eureka -->
+        <!-- 将微服务provider注册进eureka -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
+        <!-- 标配 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>

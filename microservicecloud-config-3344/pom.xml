@@ -9,10 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- SpringCloud Config 分布式配置中心 -->
     <artifactId>microservicecloud-config-3344</artifactId>
 
     <dependencies>
-        <!-- springCloud Config -->
+        <!-- springCloud Config 服务端 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
@@ -23,6 +24,7 @@
             <artifactId>org.eclipse.jgit</artifactId>
             <version>4.10.0.201712302008-r</version>
         </dependency>-->
+
         <!-- 图形化监控 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -32,6 +32,7 @@ eureka:
     instance-id: microservicecloud-dept8001 #自定义服务名称信息
     prefer-ip-address: true #访问路径可以显示IP地址
 
+# 微服务info内容详细信息
 info:
   app.name: xt-microservicecloud
   company.name: www.xt.com

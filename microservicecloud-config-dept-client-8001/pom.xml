@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- SpringCloud Config配置版的 dept服务-->
     <artifactId>microservicecloud-config-dept-client-8001</artifactId>
 
     <dependencies>

@@ -8,6 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
+    <!-- SpringCloud Config配置版的 Eureka -->
     <artifactId>microservicecloud-config-eureka-client-7001</artifactId>
 
     <dependencies>

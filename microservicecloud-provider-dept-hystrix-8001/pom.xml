@@ -9,11 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- hystrix 断路器 -->
     <artifactId>microservicecloud-provider-dept-hystrix-8001</artifactId>
 
     <dependencies>
 
-        <!-- 将微服务provider侧注册进eureka -->
+        <!-- hystrix 相关 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix</artifactId>

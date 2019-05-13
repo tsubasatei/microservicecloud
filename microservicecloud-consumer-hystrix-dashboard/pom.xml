@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- 服务监控 图形化展示 -->
     <artifactId>microservicecloud-consumer-hystrix-dashboard</artifactId>
 
     <dependencies>
@@ -49,6 +50,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
         </dependency>
+
         <!-- hystrix和 hystrix-dashboard相关 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -58,6 +60,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
         </dependency>
+
     </dependencies>
 
 </project>

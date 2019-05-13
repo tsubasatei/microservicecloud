@@ -4,7 +4,7 @@ server:
 spring: 
   application:
     name: microservicecloud-zuul-gateway
- 
+
 eureka: 
   client: 
     service-url: 
@@ -15,10 +15,10 @@ eureka:
  
  
 zuul: 
-  #ignored-services: microservicecloud-dept
-  prefix: /xt
+  #ignored-services: microservicecloud-dept  # 原真实服务名忽略，单个具体，多个可以用"*"
+  prefix: /xt  # 设置统一公共前缀
   ignored-services: "*"
-  routes: 
+  routes:  # 代理名称
     mydept.serviceId: microservicecloud-dept
     mydept.path: /mydept/**
  

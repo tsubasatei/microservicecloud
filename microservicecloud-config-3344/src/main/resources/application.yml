@@ -4,7 +4,7 @@ server:
 spring:
    application:
       name: microservicecloud-config
-   cloud:
+   cloud: # 在 github 上创建仓库
       config:
         server:
           git:
